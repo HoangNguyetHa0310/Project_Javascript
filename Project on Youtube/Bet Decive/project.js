@@ -168,5 +168,11 @@ const game = () => {
 }
 
 
-game();
+game(); 
+// chuột phải chọn run code . 
+// dòng đầu tiên là số tiền để chơi ; 
+// dòng số 2 là cược số ký tự trùng nhau 
+// dòng 3 là số tiền cược 
+ 
+
 
