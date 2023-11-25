@@ -1,5 +1,5 @@
 
-var fullName = 'Phan Văn Hoàng - Hoàng Nguyệt Hạ - Bài Tập Javascript :';console.log(fullName);
+var fullName = 'Phan Văn Hoàng - Hoàng Nguyệt Hạ - Bài Tập Javascript :'; console.log(fullName);
 
 // var age = 26;
 
@@ -282,14 +282,55 @@ var fullName = 'Phan Văn Hoàng - Hoàng Nguyệt Hạ - Bài Tập Javascript 
 
 
 // Viết hàm tại đây
-function getLastElement (arr ) {
-    return arr.slice(arr.length - 1 );
-}
+// function getLastElement (arr ) {
+//     return arr.slice(arr.length - 1 );
+// }
 
 
-// Ví dụ sử dụng
-var animals = ['Monkey', 'Tiger', 'Elephant'];
-var result = getLastElement(animals);
+// // Ví dụ sử dụng
+// var animals = ['Monkey', 'Tiger', 'Elephant'];
+// var result = getLastElement(animals);
 
-console.log(result); // Expected: "Elephant"
-console.log(animals); // Expected: ['Monkey', 'Tiger', 'Elephant']
+// console.log(result); // Expected: "Elephant"
+// console.log(animals); // Expected: ['Monkey', 'Tiger', 'Elephant']
+
+
+// bài 148 
+// document.addEventListener('DOMContentLoaded', function () {
+//     var element = document.querySelector('.box');
+
+//     if (element !== null) {
+//         element.classList.add('red');
+//     } else {
+//         console.error('Không tìm thấy phần tử!');
+//     }
+
+//     // console.log(element.classList.contains("red")); tim kiem class
+
+//     // setTimeout(() =>{
+//     //     element.classList.remove("red");
+//     // },3000) xoa class red sau 3second
+
+//     // setTimeout(() => {
+//     //     element.classList.toggle("red");
+//     // },3000); 
+//     // nếu có class red thì nó sẽ xóa sau 3s còn 
+//     // nếu không có class red thì nó sẽ thêm class red sau 3s 
+//     // vd khac: làm chữ nhay liên tục tùy vào time chúng ta cho là bao nhiêu 
+//    // setInterval(() => {
+//    //     element.classList.toggle("red");
+//    // },500); 
+
+
+// });
+
+// cách thêm class box vào trong cách thẻ 
+// document.querySelector("div").classList.add("box");
+// cách khác đó là : 
+
+// const box = document.querySelectorAll("div");
+// box.forEach(function(box) {
+//     box.classList.add("box");
+// })
+
+
