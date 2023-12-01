@@ -51,7 +51,7 @@
 // for (var i=0 ; i <aelm.length ; i++) {
 //     aelm[i].onclick = function (e) {
 //         // console.log(e.target.href);
-//         if (!e.target.href.startsWith("https://www.facebook.com/")){
+//         if (!e.target.href.startsWith("https://chat.openai.com/")){
 //             e.preventDefault();
 //         }
 //     }
